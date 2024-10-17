@@ -49,3 +49,33 @@ header {
 .navlinks a:hover {
   color: var(--main-color);
 }
+.h-right {
+  display: flex;
+  align-items: center;
+}
+.h-right i {
+
+}
+#menu-icon {
+  font-size: 40px;
+  z-index: 10001;
+  color: var(--bg-color);
+  cursor: pointer;
+  display: none;
+}
+.h-btn {
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 12px 0;
+  font-weight: 700;
+  color: var(--bg-color);
+  background: var(--main-color);
+  margin: 0 30px;
+  transition: all .7s ease;
+}
+.h-btn:hover {
+  border-radius: 0 12px 0 0;
+  background: var(--bg-color);
+  color: var(--main-color);
+}
