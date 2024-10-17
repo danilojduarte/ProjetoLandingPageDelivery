@@ -38,3 +38,14 @@ header {
   padding: 25px 17%;
   transition: all .7s ease;
 }
+.navlinks a {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: var(--p-font);
+  font-weight: 500;
+  color: var(--bg-color);
+  transition: all .7s ease;
+}
+.navlinks a:hover {
+  color: var(--main-color);
+}
