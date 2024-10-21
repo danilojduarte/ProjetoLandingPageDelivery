@@ -24,6 +24,9 @@ body {
   background: var(--bg-color);
   color: var(--text-color);
 }
+section {
+  padding: 100px 17% 90px;
+}
 
 header {
   position: fixed;
@@ -34,7 +37,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: red;
+  background: transparent;
   padding: 25px 17%;
   transition: all .7s ease;
 }
@@ -78,4 +81,40 @@ header {
   border-radius: 0 12px 0 0;
   background: var(--bg-color);
   color: var(--main-color);
+}
+
+/* HOME */
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.home-content {
+  padding-top: 170px;
+}
+.home-img {
+  position: relative;
+}
+.home-img img {
+  margin-top: 50px;
+  max-width: 850px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.home-content h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--main-color);
+  text-transform: uppercase;
+  margin-bottom: 9px;
+  letter-spacing: .7px;
 }
