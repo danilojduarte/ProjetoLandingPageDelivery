@@ -91,14 +91,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
-  background: url(../img/bg.jpg);
+  background-color: #000;
+  /* background: url(../img/bg.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 .home-content {
   padding-top: 170px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .home-img {
   position: relative;
